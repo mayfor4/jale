@@ -1,0 +1,9 @@
+{
+    "scripts": {
+      "start:api-gateway": "cd api-gateway && npm start",
+      "start:pagos": "cd pagos && npm start",
+      "start:pedidos": "cd pedidos && npm start",
+      "start:all": "npm-run-all --parallel start:*"
+    }
+  }
+  
